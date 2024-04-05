@@ -13,7 +13,7 @@
                         :class="active_item == 'supervisors' ? 'v-list-item--active' : ''"
                         value="supervisors"></v-list-item>
                     <v-list-item prepend-icon="fa-solid fa-file-invoice-dollar" title="Subscriptions"
-                        @click="active_item = 'subscriptions'"
+                        @click="active_item = 'subscriptions'; $router.push({name:'subscription'})"
                         :class="active_item == 'subscriptions' ? 'v-list-item--active' : ''"
                         value="subscriptions"></v-list-item>
                     <v-list-item prepend-icon="fa-solid fa-dollar" title="Payments" @click="active_item = 'payments'"

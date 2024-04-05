@@ -16,7 +16,12 @@ body {
 input::placeholder {
     color: lightgray !important;
 }
-
+.font-style-1{
+    font-family: var(--font-1) !important;
+}
+.font-style-2{
+    font-family: var(--font-2) !important;
+}
 .clr-custom {
     color: var(--clr);
 }
@@ -29,7 +34,7 @@ input::placeholder {
     background-color: #F8F7FA;
 }
 .bg-1 {
-    background-color: var(--bg-1);
+    background-color: var(--bg-1)!important; 
 }
 
 .v-list-item--variant-text .v-list-item__overlay {
