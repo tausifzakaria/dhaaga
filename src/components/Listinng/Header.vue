@@ -15,7 +15,7 @@
                             <i class="mdi mdi-heart fs-5 me-4"></i>
                             <span>Favorite</span>
                         </div>
-                        <div class="mx-5 cursor-pointer" @click="$router.push({ 'name': 'listing' })">
+                        <div class="mx-5 cursor-pointer active" @click="$router.push({ 'name': 'listing' })">
                             <i class="mdi mdi-store fs-5 me-4"></i>
                             <span>My Business</span>
                         </div>
@@ -31,3 +31,16 @@
     </div>
 </template>
 <script></script>
+<style>
+.active{
+    position: relative;
+}
+.active::after{
+    content: '';
+    border-bottom: 5px solid #331e6d;
+    position: absolute;
+    bottom: -97%;
+    left: 7%;
+    width: 100%;
+}
+</style>

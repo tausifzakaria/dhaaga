@@ -12,14 +12,14 @@
                             <div class="row row-cols-2 align-items-center">
                                 <div class="col">
                                     <div class="d-flex align-items-center">
-                                        <i class="fa-solid fa-search fs-4" style="color:lightgray"></i>
+                                        <i class="mdi mdi-magnify fs-4" style="color:lightgray"></i>
                                         <input type="text" class="form-control shadow-none border-0"
                                             placeholder="Search Desi Grocery">
                                     </div>
                                 </div>
-                                <div class="col text-end">
+                                <div class="col d-flex align-items-center justify-content-end">
                                     <button type="button" class="position-relative mx-5">
-                                        <i class="fa-regular fa-bell fa-xl"></i>
+                                        <i class="mdi mdi-bell-outline fs-3"></i>
                                         <span
                                             class="position-absolute translate-middle badge rounded-pill bg-danger bg-opacity-75"
                                             style="top: 30%; left: 110%;">
@@ -57,7 +57,7 @@
                                                     <div class="row row-cols-2 my-5 py-2">
                                                         <div
                                                             class="col col-2 bg-success-subtle text-center rounded-3 p-2">
-                                                            <i class="fa-solid fa-dollar text-success"></i>
+                                                            <i class="mdi mdi-currency-usd text-success"></i>
                                                         </div>
                                                         <div class="col col-10">
                                                             <h6 class="m-0 p-0">Revenue Estimate</h6>
@@ -66,7 +66,7 @@
                                                     </div>
                                                     <div class="row row-cols-2 my-5 py-2">
                                                         <div class="col col-2 bg-info-subtle text-center rounded-3 p-2">
-                                                            <i class="fa-solid fa-check text-info"></i>
+                                                            <i class="mdi mdi-check text-info"></i>
                                                         </div>
                                                         <div class="col col-10">
                                                             <h6 class="m-0 p-0">Website Clicks</h6>
@@ -79,7 +79,7 @@
                                                 <div class="position-absolute text-center"
                                                     style="top: 50%; left: 50%; transform: translate(-50%,-30%)">
                                                     <h6>Average Rating</h6>
-                                                    <h4>4.5 <i class="fa-solid fa-star text-warning"></i></h4>
+                                                    <h4>4.5 <i class="mdi mdi-star text-warning"></i></h4>
                                                 </div>
                                                 <Doughnut :data="data" :options="options" />
                                             </div>
@@ -198,7 +198,7 @@
                                     </div>
                                 </div>
                                 <div class="col text-end">
-                                    <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+                                    <i class="mdi mdi-dots-vertical fs-4"></i>
                                 </div>
                             </div>
                             <Bar style="width:100%; height: 400px;" :data="bar_data" :options="bar_options"></Bar>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Dashboard from '../views/DhaagaDashboard.vue'
 import ManageSubscription from '@/views/ManageSubscription.vue'
+import Listing from '@/views/Listing.vue'
 const routes = [
   {
     path: '/',
@@ -11,6 +12,11 @@ const routes = [
     path: '/subscription',
     name: 'subscription',
     component: ManageSubscription
+  },
+  {
+    path: '/business-lsiting',
+    name: 'listing',
+    component: Listing
   },
 ]
 

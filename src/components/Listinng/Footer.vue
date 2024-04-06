@@ -33,11 +33,12 @@
                 </div>
                 <div class="col col-lg-2 ps-5">
                     <h6>Follow Us</h6>
-                    <i class="mdi mdi-linkedin fs-2 me-4"></i>
-                    <i class="mdi mdi-facebook fs-2 me-4"></i>
+                    <i class="mdi mdi-linkedin me-5 fs-4"></i>
+                    <i class="mdi mdi-facebook me-5 fs-4"></i>
                 </div>
             </div>
         </div>
+        <p class="text-center p-2 text-light">Copyright © 2022 Dhaaga LLC. All rights reserved</p>
     </div>
 </template>
 <script></script>
